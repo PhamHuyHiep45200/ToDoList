@@ -1,0 +1,45 @@
+.containerIp{
+    width:100%;
+    height: 80px;
+    display:flex;
+    align-items:center;
+    justify-content: center;
+
+    &_inputName{
+        outline:none;
+        width:200px;
+        height:20px;
+        border-radius: 3px;
+        font-size: 16px;
+        border: 3px solid rgb(63, 63, 255);
+        margin: 0 20px;
+
+        &:hover{
+            border: 3px solid rgb(1, 1, 255);
+        }
+    }
+}
+.btn{
+    border: none;
+    background-color:blue;
+    color: white;
+    font-size:16px;
+    padding:10px 20px;
+    border-radius: 3px;
+
+    &:hover{
+        opacity: 0.8;
+    }
+}
+.list{
+    margin:0;
+    padding:0;
+
+    &_item{
+        list-style: none;
+
+        &_text{
+            color:red;
+        }
+    }
+}
